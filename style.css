@@ -83,3 +83,40 @@ section p {
     padding: 15px;
     border-radius: 25px;
 }
+
+/* prima sezione */
+.first_section {
+    content: "";
+    display: table;
+    clear: both;
+    position: relative;
+    width: 100%;
+    height: 530px;
+    text-align: left;
+}
+
+.col_sx {
+    float: left;
+    width: 50%;
+    height: 400px;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+.col_sx img {
+    width: 500px;
+}
+
+.col_dx {    
+    float: left;
+    width: 50%;
+    height: 400px;
+    position: relative;
+}
+
+.text_first_section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
