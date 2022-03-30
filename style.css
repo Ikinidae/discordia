@@ -28,7 +28,6 @@ header {
 }
 
 nav span {
-    margin-left: 12px;
     margin-right: 12px;
     font-size: 13px;
 }
@@ -133,26 +132,23 @@ section p {
 
 /* footer */
 footer {    
-    height: 300px;
     background-color: #23272a;
 }
 
 .footer_margin {    
-    height: 300px;
+    height: 400px;
     margin-left: 200px;
     margin-right: 200px;
 }
 
 /* prima colonna */
 .first_column {
-    /* background-color: red; */
     width: 300px;
-    height: 300px;
 }
 
 .first_column h1{
     color: #7188d8;
-    padding-top: 30px;
+    margin-top: 30px;
 }
 
 .first_column img {
@@ -167,27 +163,40 @@ footer {
     vertical-align: center;
 }
 
-/* seconda colonna */
-.second_column {
-    background-color: pink;
-    width: 180px;
-    height: 300px;
+.fab {
+    color: white;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
-.third_column {
-    background-color: blue;
+/* seconda colonna */
+.second_column {
     width: 180px;
-    height: 300px;
+}
+
+.footer_options {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.first_option {
+    color: #7188d8;
+    margin-top: 40px;
+}
+
+.other_options {
+    color: white;
+}
+
+/* terza colonna */
+.third_column {
+    width: 180px;
 }
 
 .fourth_column {
-    background-color: green;
     width: 180px;
-    height: 300px;
 }
 
 .fifth_column {
-    background-color: yellow;
     width: 180px;
-    height: 300px;
 }
